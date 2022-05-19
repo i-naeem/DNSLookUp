@@ -1,10 +1,4 @@
-<div align="center">
-    <a href="https://github.com/i-naeem/dnslookup">
-        <img src="./icon.png" alt="Logo" width="60" height="60">
-    </a>
-</div>
-
-# DNSLookUp
+# <img src="./icon.png" alt="Logo" width="40" height="40"> DNSLookUp
 
  A fast and simple rest api to preform DNS Lookup.
 

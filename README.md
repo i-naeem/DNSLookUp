@@ -1,4 +1,4 @@
-# <img src="./icon.png" alt="Logo" width="40" height="40"> DNSLookUp
+# <img src="./icon.png" alt="Logo" width="20" height="20"> DNSLookUp
 
  A fast and simple rest api to preform DNS Lookup.
 

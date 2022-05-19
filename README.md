@@ -1,3 +1,5 @@
+![Favicon](./icon.png)
+
 # DNSLookUp
 
  A fast and simple rest api to preform DNS Lookup.

@@ -5,20 +5,20 @@ const router = express.Router();
 
 router.get('/', async (req, res, next) => {
   return res.json({
-    namespace: '/api',
+    namespace: '/',
     routes: {
-      '/api/lookup': {
+      '/lookup': {
         method: 'GET',
         params: {
           domain: {
             description: 'The domain name to look for.',
-            example: '/api/lookup?domain=google.com',
+            example: '/lookup?domain=google.com',
             type: 'String',
             required: true,
           },
         },
       },
-      '/api/reverse': {
+      '/reverse': {
         method: 'GET',
         params: {
           address: {

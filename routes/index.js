@@ -23,7 +23,7 @@ router.get('/', async (req, res, next) => {
         params: {
           address: {
             description: 'The address name to look for host.',
-            example: '/api/reverse?address=142.250.181.78',
+            example: '/reverse?address=142.250.181.78',
             type: 'String',
             required: true,
           },

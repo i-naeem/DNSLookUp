@@ -1,4 +1,4 @@
-![Favicon](./icon.png =250px)
+<img src="./icon.png" width="200" />
 
 # DNSLookUp
 

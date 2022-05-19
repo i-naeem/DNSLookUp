@@ -3,6 +3,36 @@ const dns = require('dns/promises');
 
 const router = express.Router();
 
+router.get('/', async (req, res, next) => {
+  return res.json({
+    namespace: '/api',
+    routes: {
+      '/api/lookup': {
+        method: 'GET',
+        params: {
+          domain: {
+            description: 'The domain name to look for.',
+            example: '/api/lookup?domain=google.com',
+            type: 'String',
+            required: true,
+          },
+        },
+      },
+      '/api/reverse': {
+        method: 'GET',
+        params: {
+          address: {
+            description: 'The address name to look for host.',
+            example: '/api/reverse?address=142.250.181.78',
+            type: 'String',
+            required: true,
+          },
+        },
+      },
+    },
+  });
+});
+
 router.get('/lookup', async (req, res, next) => {
   const { domain } = req.query;
   if (!domain) {

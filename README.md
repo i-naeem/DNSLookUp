@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/i-naeem/dnslookup">
-        <img src="./icon.png" alt="Logo" width="30" height="30">
+        <img src="./icon.png" alt="Logo" width="60" height="60">
     </a>
 </div>
 

@@ -1,4 +1,4 @@
-![Favicon](./icon.png)
+![Favicon](./icon.png =100x20)
 
 # DNSLookUp
 

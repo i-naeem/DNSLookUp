@@ -1,4 +1,8 @@
-<img src="./icon.png" width="200" />
+<div align="center">
+    <a href="https://github.com/i-naeem/dnslookup">
+        <img src="./icon.png" alt="Logo" width="30" height="30">
+    </a>
+</div>
 
 # DNSLookUp
 
